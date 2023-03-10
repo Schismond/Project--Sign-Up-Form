@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div id="whole-page">
+
+  <div id="picture"></div>
+  <div id="my-form">
+    
+    <div class="first-paragraph">
+      <p>this is not a real online service! You know you need something like this in your life to help you  realize your deepest dreams.<br>
+      Sign up now to get started.</p><br>
+      <p>You know you want to.</p>
+    </div>
+
+    <div class="inputs">
+      <form action="#" method="get">
+
+      <div class="row">
+      <!-- First name -->
+          <div>
+              <label for="first_name">First Name:</label><br>
+              <input type="text" id="first_name" placeholder="Bob" required>
+          </div>
+      <!-- Last name -->
+          <div>
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" placeholder="Smith" required>
+          </div><br>
+      </div>
+
+      <div class="row">
+        <!-- Email -->
+        <div>
+          <label for="user_email">Email:</label><br>
+          <input type="email" id="user_email" placeholder="example@mail.com" name="user_email" required>
+        </div>
+
+        <!-- Phone number -->
+        <div>
+          <label for="phone_number">Phone number:</label><br>
+          <input type="text" id="phone_number" maxlength="12" placeholder="123-456-7890" name="phone_number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Please enter a valid number example: 123-456-7890" required>
+        </div><br>
+      </div>
+      <!-- Pass and confirmation -->
+      <div class="row">
+        <div>
+          <label for="user_password">Password:</label><br>
+          <input type="password" placeholder="Password" id="password" title="Use : UpperCase , LowerCase and Number" required><br>
+        </div>
+        <div>
+          <label for="user_password">Confirm Password:</label><br>
+          <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+        </div><br>
+      </div>
+    </div>
+
+    <div class="second-paragraph">
+      <button type="submit" id="btn" class="button-24">Create Account</button><p></p><br>
+      </form>
+      <p>Already have account ? <a href="#">Log in</a> </p>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
