@@ -51,7 +51,7 @@ table {
 #picture{
     height: 100vh;
     width: 40vw;
-    background-image: url(/ess.jpg);
+    background-image: url(ess.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -64,7 +64,7 @@ table {
     flex-direction: column;
     justify-content: center;
     gap: 24px;
-    background-color: #f9fafc;    
+    background-color: #f9fafc;
 }
 
 #my-form>*{
